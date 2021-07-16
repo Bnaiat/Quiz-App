@@ -1,0 +1,32 @@
+.questionWrapper {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.questionWrapper li {
+  min-width: 300px;
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 8px auto;
+  border-radius: 15px;
+}
+
+.questionWrapper li:hover {
+  border: 1px solid #aaa;
+}
+
+li.correct {
+  background-color: rgb(53, 212, 53);
+}
+
+li.selected:not(correct) {
+  background-color: rgb(206, 58, 58);
+}

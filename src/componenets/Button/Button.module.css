@@ -1,0 +1,11 @@
+.customButton {
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customButton:hover {
+  box-shadow: 2px 2px 5px black;
+}

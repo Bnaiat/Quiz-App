@@ -1,0 +1,24 @@
+.resultWrapper {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultWrapper h1 {
+  margin-bottom: 15px;
+}
+
+.resultWrapper button {
+  padding: 10px 45px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resultWrapper button:hover {
+  box-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,31 @@
+.settingsWrapper {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formWrapper {
+  background-color: #aaa;
+  padding: 35px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.formWrapper label {
+  margin-bottom: 3px;
+}
+
+.formWrapper input,
+.formWrapper select {
+  margin-bottom: 20px;
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 5px;
+}
