@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
   text-align: center;
 }
 
@@ -28,4 +27,27 @@
   width: 80%;
   padding: 35px;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .boxWrap {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .questionWrapper li {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .questionWrapper li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .boxWrap {
+    width: 95%;
+  }
 }

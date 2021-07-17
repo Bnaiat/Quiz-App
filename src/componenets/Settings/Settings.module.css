@@ -29,3 +29,9 @@
   border: 1px solid #030920;
   padding-left: 5px;
 }
+
+@media screen and (max-width: 380px) {
+  .formWrapper {
+    width: 95%;
+  }
+}

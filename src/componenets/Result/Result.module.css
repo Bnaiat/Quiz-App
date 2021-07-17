@@ -30,3 +30,9 @@
 .resultWrapper button:hover {
   box-shadow: 2px 2px 5px black;
 }
+
+@media screen and (max-width: 450px) {
+  .resultWrapper {
+    padding: 25px 50px;
+  }
+}
