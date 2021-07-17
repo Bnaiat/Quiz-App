@@ -24,7 +24,7 @@ function Questions({ setDisplayResult, setDisplayQuestions }) {
       return;
     }
     let opts = [...question.incorrect_answers];
-    opts.splice(Math.random() * 3, 0, question.correct_answer);
+    opts.splice(Math.random() * 4, 0, question.correct_answer);
 
     setOptions(opts);
   }, [question]);
