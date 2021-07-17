@@ -13,9 +13,11 @@ function Result({ setDisplayResult, setDisplaySettings }) {
   };
 
   return (
-    <div className={styles.resultWrapper}>
-      <h1>Final Score: {score}</h1>
-      <button onClick={resetQuiz}>Reset Quiz</button>
+    <div className={styles.pageWrapper}>
+      <div className={styles.resultWrapper}>
+        <h1>Final Score: {score}</h1>
+        <button onClick={resetQuiz}>Reset Quiz</button>
+      </div>
     </div>
   );
 }

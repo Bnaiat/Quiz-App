@@ -5,12 +5,17 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  color: #030920;
+}
+
+body {
+  background-color: #030920;
 }
 
 li.correct {
-  background-color: rgb(53, 212, 53);
+  background-color: #00b944;
 }
 
 li.notCorrect:not(correct) {
-  background-color: rgb(206, 58, 58);
+  background-color: #ff0000;
 }

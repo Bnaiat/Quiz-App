@@ -67,17 +67,23 @@ function Questions({ setDisplayResult, setDisplayQuestions }) {
     <h1>{error}</h1>
   ) : (
     <div className={styles.questionWrapper}>
-      <p>Question {index + 1}</p>
-      <h4>Category: {question.category}</h4>
-      <h5>Difficulty: {question.difficulty}</h5>
-      <h2>{decodeText(question.question)}</h2>
-      <ul>
-        {options.map((option, i) => (
-          <li key={i} onClick={handleAnswerClick} className={getClass(option)}>
-            {decodeText(option)}
-          </li>
-        ))}
-      </ul>
+      <div className={styles.boxWrap}>
+        <p>Question {index + 1}</p>
+        <h4>Category: {question.category}</h4>
+        <h5>Difficulty: {question.difficulty}</h5>
+        <h2>{decodeText(question.question)}</h2>
+        <ul>
+          {options.map((option, i) => (
+            <li
+              key={i}
+              onClick={handleAnswerClick}
+              className={getClass(option)}
+            >
+              {decodeText(option)}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
